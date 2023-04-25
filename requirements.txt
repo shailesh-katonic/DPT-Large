@@ -1,0 +1,9 @@
+torchvision
+transformers
+Cython
+Pillow
+PyYAML
+scipy
+tqdm
+torch
+psutil
