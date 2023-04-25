@@ -7,7 +7,7 @@ def loadmodel(logger):
    
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     logger.info(f"device: {device}")
-    model = pipeline(model="openai/whisper-large", device=device)
+    model = pipeline(model="openai/whisper-medium", device=device)
     return model  
 
 def preprocessing(features, logger):
